@@ -47,6 +47,10 @@ return array(
     'PATH_AVATARS' => realpath(dirname(__FILE__).'/../../') . '/public/avatars/',
     'PATH_AVATARS_PUBLIC' => 'avatars/',
     /**
+     * Configuration for: Bulk upload
+     */
+    'PATH_BULK_UPLOAD' => realpath(dirname(__FILE__).'/../../') . '/public/bulkupload/',
+    /**
      * Configuration for: Default controller and action
      */
     'DEFAULT_CONTROLLER' => 'index',

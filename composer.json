@@ -1,17 +1,20 @@
 {
-    "name": "panique/huge",
+    "name": "dmytroklyman/huge_bulkupload",
     "type": "project",
-    "description": "A full-feature user authentication / login system embedded into a simple but powerful MVC framework structure",
-    "keywords": ["login", "auth", "user", "authentication", "mvc", "membership"],
-    "homepage": "https://github.com/panique/huge",
+    "description": "HUGE framework with bulk upload",
+    "keywords": ["upload"],
+    "homepage": "https://github.com/dmytroklyman/huge_bulkupload",
     "license": "MIT",
+    "require": {
+        "jamesgordo/php-csv-parser": "^1.0"
+    },
     "require-dev": {
-        "php": ">=5.5.0",
+        "php": ">=7.1.0",
         "phpmailer/phpmailer": "~5.2",
         "gregwar/captcha": "~1.1",
         "phpunit/phpunit": "4.8.*|5.7.*"
     },
     "autoload": {
-        "psr-4": { "": ["application/core/", "application/model/"] }
+        "psr-4": { "": ["application/core/", "application/model/", "application/helper/"] }
     }
 }

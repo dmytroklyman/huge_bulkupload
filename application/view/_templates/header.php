@@ -21,6 +21,9 @@
             <li <?php if (View::checkForActiveController($filename, "index")) { echo ' class="active" '; } ?> >
                 <a href="<?php echo Config::get('URL'); ?>index/index">Index</a>
             </li>
+            <li <?php if (View::checkForActiveController($filename, "bulkupload")) { echo ' class="active" '; } ?> >
+                <a href="<?php echo Config::get('URL'); ?>bulkupload/index">Bulk Upload</a>
+            </li>
             <li <?php if (View::checkForActiveController($filename, "profile")) { echo ' class="active" '; } ?> >
                 <a href="<?php echo Config::get('URL'); ?>profile/index">Profiles</a>
             </li>
